@@ -1,18 +1,23 @@
+streamlit
+
+# Core LangChain ecosystem
 langchain
 langchain-community
-python-dotenv
-ipykernel
-pypdf
-bs4
-arxiv
-pymupdf
+langchain-core
 langchain-text-splitters
-chromadb
-sentence_transformers
-faiss-cpu
-langchain_chroma
-langchain-groq
-streamlit
+langchain-chroma
 langchain-huggingface
+langchain-groq
 
-langchain_ollama
+# Vector DB
+chromadb
+
+# HuggingFace
+huggingface-hub
+sentence-transformers
+
+# PDF loader
+pypdf
+
+# Env
+python-dotenv
